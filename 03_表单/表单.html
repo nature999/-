@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>表单</title>
+</head>
+
+<body>
+  <h1>青春不常在，诗酒趁年华</h1>
+  <hr>
+  <form action="">
+    昵称；
+    <!-- placeholder 占位符 -->
+    <input type="text" placeholder="请输入昵称">
+    <br><br>
+
+    性别：
+    <!-- label：定义 input 元素的标注 -->
+    <!-- radio 单选框   checkbox 多选框 -->
+    <!-- name 属性分组，一个分组只能有一个值被选中 -->
+    <!-- checked 默认选中-->
+    <label><input type="radio" name="sex" checked>男</label>
+    <label><input type="radio" name="sex">女</label>
+    <br><br>
+
+    所在城市：
+    <select>
+      <!-- option 选项 -->
+      <!-- 默认选中第一项，可以指定默认选中 selected -->
+      <option selected>上海</option>
+      <option>北京</option>
+      <option>广州</option>
+      <option>深圳</option>
+      <option>杭州</option>
+      <option>南京</option>
+      <option>郑州</option>
+      <option>西安</option>
+      <option>武汉</option>
+      <option>成都</option>
+      <option>重庆</option>
+    </select>
+    <br><br>
+
+    婚姻状况：
+    <label><input type="radio" name="marital">未婚</label>
+    <label><input type="radio" name="marital">已婚</label>
+    <label><input type="radio" name="marital">保密</label>
+    <br><br>
+
+    喜欢的类型：
+    <!-- checkbox 多选框 -->
+    <label><input type="checkbox" checked>可爱</label>
+    <label><input type="checkbox" checked>温柔</label>
+    <label><input type="checkbox">善良</label>
+    <label><input type="checkbox">性感</label>
+    <label><input type="checkbox">娇媚</label>
+    <br><br>
+
+    个人介绍：<br>
+    <!-- textarea多行文本域 -->
+    <!-- cols 宽度 列数 -->
+    <!-- rows 高度 行数 -->
+    <textarea name="" id="" cols="60" rows="10"></textarea>
+
+    <h3>我承诺</h3>
+    <!-- ul无序列表   ol有序列表   dl自定义列表-->
+    <ul>
+      <li>年满18岁，单身</li>
+      <li>抱着严肃的态度</li>
+      <li>真诚寻找另一半</li>
+    </ul>
+    <input type="checkbox" name="city" id="city">我同意所有条款
+    <br><br>
+
+    <!-- 按钮： input button -->
+    <input type="submit" value="免费注册">
+    <input type="reset">
+
+  </form>
+</body>
+
+</html>

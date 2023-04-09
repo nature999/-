@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+/* 公共版心 */
+.bancen {
+  width: 1102px;
+  margin: 0 auto;
+}
+
+/* logo区域 */
+.logo {
+  height: 100px;
+  background-color: #f29044;
+}
+
+.logo > .logLef {
+  width: 205px;
+  height: 54px;
+  background-color: #35b559;
+  float: left;
+  margin-top: 23px;
+}
+
+.logo > .logRig {
+  width: 297px;
+  height: 52px;
+  background-color: #3754b3;
+  float: right;
+  margin-top: 25px;
+}
+
+/* 导航区域 */
+.layout {
+  height: 60px;
+  background-color: #2f2f2f;
+}
+
+.nav {
+  height: 60px;
+  background-color: #f2fb2b;
+}
+
+/* 轮播图 */
+.banner {
+  height: 430px;
+  background-color: #2f6fd9;
+}
+
+/* 内容区域1 */
+.info {
+  height: 250px;
+  margin-bottom: 30px;
+  background-color: red;
+}
+
+.info > .infoLef {
+  width: 492px;
+  height: 250px;
+  background-color: #9791d6;
+  float: left;
+  margin-right: 22px;
+}
+
+.info > .infoCen {
+  width: 348px;
+  height: 250px;
+  background-color: #f5f5f5;
+  float: left;
+}
+
+.info > .infoRig {
+  width: 240px;
+  height: 250px;
+  background-color: #d691c0;
+  float: left;
+}
+
+/* 内容区域2 */
+.content {
+  height: 288px;
+  background-color: #f5f5f5;
+  overflow: hidden;
+}
+
+.content > .conInfo {
+  width: 1054px;
+  height: 197px;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 47px;
+}
+
+.conInfo > .conLef {
+  width: 275px;
+  height: 157px;
+  background-color: #d691c0;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.conInfo > .conRig {
+  width: 700px;
+  height: 157px;
+  background-color: #8f96d5;
+  float: left;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+/* 标题区域 */
+.title {
+  height: 70px;
+  background-color: #f4e20c;
+  margin-top: 15px;
+}
+
+.title > .titLef {
+  width: 140px;
+  height: 52px;
+  background-color: #0b65f4;
+  float: left;
+  margin-top: 18px;
+}
+
+.title > .titRig {
+  width: 523px;
+  height: 55px;
+  background-color: #0b65f4;
+  float: right;
+  margin-top: 15px;
+}
+
+/* teacher区域 */
+.teacher {
+  height: 290px;
+  background-color: deepskyblue;
+  margin-top: 13px;
+  margin-bottom: 30px;
+}
+
+.teacher > div {
+  width: 262px;
+  height: 290px;
+  background-color: #eff4f5;
+  float: left;
+  margin-right: 18px;
+}
+
+.teacher > .last {
+  margin-right: 0px;
+}
+
+/* 底部区域 */
+.botLayOut {
+  height: 125px;
+  background-color: #101c23;
+}
